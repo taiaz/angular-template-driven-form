@@ -1,0 +1,21 @@
+// .stock-name .ng-valid,
+// .stock-code .ng-pristine,
+// .stock-price .ng-untouched {
+//     background-color: green;
+// }
+// .stock-name .ng-invalid,
+// .stock-code .ng-dirty,
+// .stock-price .ng-touched {
+//     background-color: rgb(117, 0, 20);
+// }
+
+.user-name .ng-valid,
+.user-phone .ng-valid,
+.stock-price .ng-valid {
+    background-color: green;
+}
+.user-name .ng-invalid,
+.user-phone .ng-invalid,
+.stock-price .ng-invalid {
+    background-color: rgb(247, 0, 41);
+}
